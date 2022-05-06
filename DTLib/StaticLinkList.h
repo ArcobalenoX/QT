@@ -40,7 +40,7 @@ protected:
 
     struct SNode : public Node
     {
-        void* operator new(unsigned int size, void* loc)
+        void* operator new(size_new size, void* loc)
         {
             (void)size;
             return loc;

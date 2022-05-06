@@ -30,12 +30,7 @@ HEADERS += \
     complex.h \
     templatearray.h
 
-INCLUDEPATH += D:\opencv\build\include
 
 
-win32:CONFIG(release, debug|release): LIBS += -LD:/opencv/build/x64/vc15/lib/ -lopencv_world452
-else:win32:CONFIG(debug, debug|release): LIBS += -LD:/opencv/build/x64/vc15/lib/ -lopencv_world452d
-else:unix: LIBS += -LD:/opencv/build/x64/vc15/lib/ -lopencv_world452
 
-INCLUDEPATH += D:/opencv/build/x64/vc15
-DEPENDPATH += D:/opencv/build/x64/vc15
+

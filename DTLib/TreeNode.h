@@ -41,7 +41,7 @@ protected:
     TreeNode(const TreeNode<T>&);
     TreeNode<T>& operator = (const TreeNode<T>&);
 
-    void* operator new(unsigned int size) throw()
+    void* operator new(size_new size) throw()
     {
         return Object::operator new(size);
     }

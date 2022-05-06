@@ -27,6 +27,7 @@
 #ifndef OBJECT_H
 #define OBJECT_H
 
+#include <iostream>
 
 #define size_new long long unsigned int
 

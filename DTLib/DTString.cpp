@@ -393,7 +393,7 @@ bool String::operator != (const String& s) const
     return !(*this == s);
 }
 
-bool String::operator != (const char* s) const
+bool String::operator != (const char* s)  const
 {
     return !(*this == s);
 }

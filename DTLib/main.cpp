@@ -1,14 +1,31 @@
 #include <iostream>
-#include "DTString.h"
-
+#include <cmath>
+#include <algorithm>
+#include <vector>
+#include <stack>
+#include <deque>
+#include <list>
+#include <set>
+#include <map>
 using namespace std;
-using namespace DTLib;
 
+#include "BTree.h"
+using namespace DTLib;
 int main()
 {
-    String s = "D.T.Software";
+    string str;
+    BTree<int> tree;
+    BTreeNode<int> root;
+    BTreeNode<int>* pnode=nullptr;
+//    tree.insert(1);
+    tree.insert(1,&root,LEFT);
+    pnode = tree.find(1);
+    tree.insert(2,pnode,LEFT);
 
-    cout << "Hello: " << s.str() << endl;
 
     return 0;
 }
+
+
+
+

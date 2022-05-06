@@ -39,7 +39,7 @@ template < typename T >
 class GTree : public Tree<T>
 {
 protected:
-    LinkQueue<GTreeNode<T>*> m_queue;
+    LinkQueue< GTreeNode<T>* > m_queue;
 
     GTreeNode<T>* find(GTreeNode<T>* node, const T& value) const
     {

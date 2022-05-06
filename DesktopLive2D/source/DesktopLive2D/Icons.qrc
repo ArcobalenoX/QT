@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Resources/Icons/icon_close.png</file>
+        <file>Resources/Icons/icon_down.png</file>
+        <file>Resources/Icons/icon_left.png</file>
+        <file>Resources/Icons/icon_right.png</file>
+        <file>Resources/Icons/icon_up.png</file>
+        <file>Resources/Icons/icon_check_16.png</file>
+        <file>Resources/Icons/icon_radio_btn_checked_32.png</file>
+        <file>Resources/Icons/icon_radio_btn_normal_32.png</file>
+        <file>Resources/Icons/icon_check_box_checked_32.png</file>
+        <file>Resources/Icons/icon_check_box_normal_32.png</file>
+    </qresource>
+</RCC>

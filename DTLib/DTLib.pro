@@ -1,12 +1,16 @@
 TEMPLATE = app
+
+QT += core
+
 CONFIG += console
-CONFIG -= app_bundle
-CONFIG -= qt
+#CONFIG -= app_bundle
+#CONFIG -= qt
 
 SOURCES += main.cpp \
     Exception.cpp \
     Object.cpp \
-    DTString.cpp
+    DTString.cpp \
+    practive.cpp
 
 HEADERS += \
     SmartPointer.h \
@@ -43,4 +47,5 @@ HEADERS += \
     Graph.h \
     MatrixGraph.h \
     ListGraph.h \
-    DTString.h
+    DTString.h \
+    practive.h
