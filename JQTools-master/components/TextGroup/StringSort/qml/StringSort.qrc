@@ -1,5 +1,0 @@
-<RCC>
-    <qresource prefix="/StringSort">
-        <file>StringSort.qml</file>
-    </qresource>
-</RCC>

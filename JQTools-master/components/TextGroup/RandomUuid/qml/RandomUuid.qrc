@@ -1,5 +1,0 @@
-<RCC>
-    <qresource prefix="/RandomUuid">
-        <file>RandomUuid.qml</file>
-    </qresource>
-</RCC>

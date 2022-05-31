@@ -1,5 +1,0 @@
-<RCC>
-    <qresource prefix="/PngWarningRemover">
-        <file>PngWarningRemover.qml</file>
-    </qresource>
-</RCC>

@@ -1,5 +1,0 @@
-<RCC>
-    <qresource prefix="/IconMaker">
-        <file>IconMaker.qml</file>
-    </qresource>
-</RCC>

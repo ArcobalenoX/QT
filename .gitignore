@@ -5,11 +5,13 @@
 *.pdf
 *.avi
 *.mp3
+*.mp4
 *.tar
 *.rar
 *.jpg
 *.png
 *.bmp
+*.zip
 
 
 # C++ objects and libs

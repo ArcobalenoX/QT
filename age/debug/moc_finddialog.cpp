@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'finddialog.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.14.2)
+** Created by: The Qt Meta Object Compiler version 68 (Qt 6.3.0)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -12,8 +12,8 @@
 #include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'finddialog.h' doesn't include <QObject>."
-#elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.14.2. It"
+#elif Q_MOC_OUTPUT_REVISION != 68
+#error "This file was generated using the moc from 6.3.0. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -22,26 +22,23 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_FindDialog_t {
-    QByteArrayData data[10];
+    const uint offsetsAndSize[20];
     char stringdata0[91];
 };
-#define QT_MOC_LITERAL(idx, ofs, len) \
-    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    qptrdiff(offsetof(qt_meta_stringdata_FindDialog_t, stringdata0) + ofs \
-        - idx * sizeof(QByteArrayData)) \
-    )
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(offsetof(qt_meta_stringdata_FindDialog_t, stringdata0) + ofs), len 
 static const qt_meta_stringdata_FindDialog_t qt_meta_stringdata_FindDialog = {
     {
-QT_MOC_LITERAL(0, 0, 10), // "FindDialog"
-QT_MOC_LITERAL(1, 11, 8), // "findNext"
-QT_MOC_LITERAL(2, 20, 0), // ""
-QT_MOC_LITERAL(3, 21, 3), // "str"
-QT_MOC_LITERAL(4, 25, 19), // "Qt::CaseSensitivity"
-QT_MOC_LITERAL(5, 45, 2), // "cs"
-QT_MOC_LITERAL(6, 48, 8), // "findPrev"
-QT_MOC_LITERAL(7, 57, 11), // "findClicked"
-QT_MOC_LITERAL(8, 69, 16), // "enableFindButton"
-QT_MOC_LITERAL(9, 86, 4) // "text"
+QT_MOC_LITERAL(0, 10), // "FindDialog"
+QT_MOC_LITERAL(11, 8), // "findNext"
+QT_MOC_LITERAL(20, 0), // ""
+QT_MOC_LITERAL(21, 3), // "str"
+QT_MOC_LITERAL(25, 19), // "Qt::CaseSensitivity"
+QT_MOC_LITERAL(45, 2), // "cs"
+QT_MOC_LITERAL(48, 8), // "findPrev"
+QT_MOC_LITERAL(57, 11), // "findClicked"
+QT_MOC_LITERAL(69, 16), // "enableFindButton"
+QT_MOC_LITERAL(86, 4) // "text"
 
     },
     "FindDialog\0findNext\0\0str\0Qt::CaseSensitivity\0"
@@ -53,7 +50,7 @@ QT_MOC_LITERAL(9, 86, 4) // "text"
 static const uint qt_meta_data_FindDialog[] = {
 
  // content:
-       8,       // revision
+      10,       // revision
        0,       // classname
        0,    0, // classinfo
        4,   14, // methods
@@ -63,13 +60,13 @@ static const uint qt_meta_data_FindDialog[] = {
        0,       // flags
        2,       // signalCount
 
- // signals: name, argc, parameters, tag, flags
-       1,    2,   34,    2, 0x06 /* Public */,
-       6,    2,   39,    2, 0x06 /* Public */,
+ // signals: name, argc, parameters, tag, flags, initial metatype offsets
+       1,    2,   38,    2, 0x06,    1 /* Public */,
+       6,    2,   43,    2, 0x06,    4 /* Public */,
 
- // slots: name, argc, parameters, tag, flags
-       7,    0,   44,    2, 0x08 /* Private */,
-       8,    1,   45,    2, 0x08 /* Private */,
+ // slots: name, argc, parameters, tag, flags, initial metatype offsets
+       7,    0,   48,    2, 0x08,    7 /* Private */,
+       8,    1,   49,    2, 0x08,    8 /* Private */,
 
  // signals: parameters
     QMetaType::Void, QMetaType::QString, 0x80000000 | 4,    3,    5,
@@ -86,12 +83,12 @@ void FindDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
         auto *_t = static_cast<FindDialog *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         switch (_id) {
-        case 0: _t->findNext((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< Qt::CaseSensitivity(*)>(_a[2]))); break;
-        case 1: _t->findPrev((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< Qt::CaseSensitivity(*)>(_a[2]))); break;
+        case 0: _t->findNext((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<Qt::CaseSensitivity>>(_a[2]))); break;
+        case 1: _t->findPrev((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<Qt::CaseSensitivity>>(_a[2]))); break;
         case 2: _t->findClicked(); break;
-        case 3: _t->enableFindButton((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 3: _t->enableFindButton((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
@@ -113,12 +110,18 @@ void FindDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
     }
 }
 
-QT_INIT_METAOBJECT const QMetaObject FindDialog::staticMetaObject = { {
+const QMetaObject FindDialog::staticMetaObject = { {
     QMetaObject::SuperData::link<QDialog::staticMetaObject>(),
-    qt_meta_stringdata_FindDialog.data,
+    qt_meta_stringdata_FindDialog.offsetsAndSize,
     qt_meta_data_FindDialog,
     qt_static_metacall,
     nullptr,
+qt_incomplete_metaTypeArray<qt_meta_stringdata_FindDialog_t
+, QtPrivate::TypeAndForceComplete<FindDialog, std::true_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<const QString &, std::false_type>, QtPrivate::TypeAndForceComplete<Qt::CaseSensitivity, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<const QString &, std::false_type>, QtPrivate::TypeAndForceComplete<Qt::CaseSensitivity, std::false_type>
+, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<const QString &, std::false_type>
+
+
+>,
     nullptr
 } };
 
@@ -147,7 +150,7 @@ int FindDialog::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
         _id -= 4;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
         if (_id < 4)
-            *reinterpret_cast<int*>(_a[0]) = -1;
+            *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
         _id -= 4;
     }
     return _id;

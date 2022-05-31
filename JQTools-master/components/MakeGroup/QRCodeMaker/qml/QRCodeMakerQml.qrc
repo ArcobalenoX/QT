@@ -1,5 +1,0 @@
-<RCC>
-    <qresource prefix="/QRCodeMaker">
-        <file>QRCodeMaker.qml</file>
-    </qresource>
-</RCC>

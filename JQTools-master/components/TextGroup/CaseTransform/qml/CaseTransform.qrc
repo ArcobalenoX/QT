@@ -1,5 +1,0 @@
-<RCC>
-    <qresource prefix="/CaseTransform">
-        <file>CaseTransform.qml</file>
-    </qresource>
-</RCC>
