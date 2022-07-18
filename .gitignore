@@ -12,7 +12,7 @@
 *.png
 *.bmp
 *.zip
-
+*.idx
 
 # C++ objects and libs
 *.slo
